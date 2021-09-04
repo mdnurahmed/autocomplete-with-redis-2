@@ -1,12 +1,14 @@
-# autocomplete-with-redis-1
+# autocomplete-with-redis-2
 
 A simple scalabale implimentation of search autocomplete using Redis based on the [blog of Salvatore Sanfilippo (Antirez)](http://oldblog.antirez.com/post/autocomplete-with-redis.html) , the creator of Redis . On the backend I used Golang. 
+
+This solution can suggest top N word based on search frequency .  
 
 # How To Run 
 Using Docker - 
 ```
-git clone https://github.com/mdnurahmed/autocomplete-with-redis-1
-cd autocomplete-with-redis-1
+git clone https://github.com/mdnurahmed/autocomplete-with-redis-2
+cd autocomplete-with-redis-2
 docker-compose up --build
 ```
 
